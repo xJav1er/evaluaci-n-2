@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background-image:
+        url(img/hero.webp);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-texto {
+    color: rgb(2, 2, 2);
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 19px rgb(37, 36, 36);
+}
+
+.parrafo {
+    font-size: 20px;
+    text-align: justify;
+    text-shadow: 0 0 5px rgb(27, 25, 25);
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    padding: 85px 0; 
+}
+
+.contenedor-ofert {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titulo-ofert {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+
+.menu{
+    background-color: rgb(64, 151, 52);
+    list-style: none;
+    position: fixed;
+    width: 100%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    text-decoration: none; 
+    color: rgb(97, 22, 236);
+    display: inline-block;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 23px;
+ }
+
+ .menu li a:hover{
+    background-color: rgb(248, 232, 232);
+    color: rgb(0, 0, 0);
+    text-decoration: underline rgb(0, 38, 255);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.galeria {
+    background-color: rgb(147, 219, 14);
+    color: rgb(153, 140, 140);
+}
+
+.contenedor-galeria {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor-galeria img {
+    width: 23%;
+    margin-bottom: 35px;
+    box-shadow: 0 0 15px rgb(222, 247, 3);
+}
+
+.contacto {
+    background-color: rgb(35, 15, 110);
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 110%;
+}
+
+.input {
+    background: transparent;
+    margin-bottom: 30px;
+    border: 0px;
+    outline: none;
+    border: 1px solid white;
+    padding:20px 15px;
+    font-size: 20px;
+    color: rgb(4, 189, 75);
+}
+
+.input-ancho{
+    width: 100%;
+}
+
+.textarea-ancho{
+    width: 96%;
+}
+
+footer {
+    background-color: #1f8f2e;
+    padding: 1px;
+    text-align: center;
+}
+footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1px;
+}
